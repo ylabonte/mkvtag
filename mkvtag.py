@@ -24,7 +24,7 @@ def store_tag(option, opt, value, parser):
 
 
 parser = OptionParser(version='0.1.0',
-                      usage='%prog [options] <filename> ...',
+                      usage='./%prog [options] <filename> ...',
                       add_help_option=True,
                       description="""This tool is meant to ease MKV tagging.
 It's primary purpose is to set the filename (without extension) as video title.
