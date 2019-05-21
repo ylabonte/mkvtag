@@ -36,15 +36,15 @@ filename expansion, which turns out to be much more efficient in terms of
 performance.
 
 It does not make much sense to use it for editing a single file. In cases
-you just want to edit a single file or files that have destinct properties
-which cannot be set in a single call, I would recommend you to take a look at
-the underlying `mkvpropedit` tool.
+you just want to edit a single file or files that have distinct properties
+which cannot be set in a single call, I would recommend taking a look at
+the underlying [`mkvpropedit`](https://mkvtoolnix.download/doc/mkvpropedit.html) tool.
 
 
 ## Requirements
 
 * Python 3
-* [mkvpropedit](https://mkvtoolnix.download/doc/mkvpropedit.html) 
+* [`mkvpropedit`](https://mkvtoolnix.download/doc/mkvpropedit.html) 
 (this is part of the [mkvtoolnix](https://mkvtoolnix.download/) package)
 
 
